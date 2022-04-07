@@ -1,15 +1,20 @@
 
-const player = {
-    name: "nico",
-    sayHello: function(otherPersionName) {
-        console.log("Hello, " + otherPersionName)
-    }
+const title = document.querySelector("div.hello:first-child h1");
+
+console.dir(title)
+
+function handleTitleClick() {
+    title.style.color = "blue";
 }
 
-console.log(player);
-player.sayHello("nico");
-player.sayHello("nico");
-player.sayHello("nico");
-player.sayHello("nico");
-player.sayHello("nico");
-player.sayHello("nico");
+function handleMouseEnter() {
+    title.innerText = "Mouse is here!";
+}
+
+function handleMouseLeave()
+{    
+    title.innerText = "Mouse is gone!";
+}
+title.addEventListener("click", handleTitleClick);
+title.addEventListener("mouseenter", handleMouseEnter);
+title.addEventListener("mouseleave", handleMouseLeave);
