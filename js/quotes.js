@@ -38,7 +38,6 @@ const quotes = [
     { 
         quote: "When you reach the end of your rope, tie a knot in it and hang on.",
         author: "Franklin D. Roosevelt"
-    
     },
 ]
 
