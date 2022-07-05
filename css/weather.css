@@ -1,0 +1,15 @@
+.header {
+    margin: 12px;
+}
+
+#weather span {
+    color: white;
+    text-shadow: #323232 1px 0 20px;
+    font-weight: 600;
+    display: inline-block;
+    justify-content: flex-start;
+}
+
+#weather span:last-child {
+    margin: 0px 12px;
+}

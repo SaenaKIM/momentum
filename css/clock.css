@@ -1,0 +1,9 @@
+.clock {
+    color: white;   
+    font-size:72px;
+    text-shadow: #323232 1px 0 20px;
+    font-weight: 600;
+    display: block;
+    justify-content: center;
+    margin-bottom: 24px;
+}

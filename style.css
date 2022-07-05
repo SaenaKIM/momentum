@@ -1,3 +1,28 @@
+@import "css/reset.css";
+@import "css/greetings.css";
+@import "css/weather.css";
+@import "css/clock.css";
+
 .hidden {
     display: none;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+main {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
